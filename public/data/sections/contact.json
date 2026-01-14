@@ -130,7 +130,7 @@
                     "id": 5,
                     "faIcon": "fa-brands fa-instagram",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@chrislouis",
+                    "label": "@chrisy_c",
                     "link": {"href": "https://instagram.com/", "tooltipString": "open_website"},
                     "locales": {
                         "en": {"title": "Instagram"},
