@@ -97,15 +97,15 @@
             {
                 "description": "Clone it and customize it for your own portfolio:",
                 "list": [
-                    "https://github.com/ryanbalieiro/react-portfolio-template"
+                    "https://chris-louis-react-portfolio.vercel.app/"
                 ],
                 "listStyle": "none"
             },
             {
                 "description": "Developer Info:",
                 "list": [
-                    "GitHub: https://github.com/ryanbalieiro",
-                    "Website: https://ryanbalieiro.com"
+                    "GitHub: https://github.com/chrislouis2002",
+                    "Website: https://chris-louis-react-portfolio.vercel.app/"
                 ],
                 "listStyle": "bulleted"
             }

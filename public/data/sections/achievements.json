@@ -204,7 +204,7 @@
                     "date": {"year": 2020, "month": 5},
                     "preview": {
                         "links": [
-                            {"href": "https://github.com/ryanbalieiro/react-portfolio-template", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
+                            {"href": "https://chris-louis-react-portfolio.vercel.app/", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
                             {"href": "https://www.linuxfoundation.org/", "tooltipString": "open_website", "faIcon": "fa-brands fa-linux"}
                         ],
                         "screenshots": [],
