@@ -37,6 +37,7 @@
                     "category_all": "All",
                     "category_apps": "Apps",
                     "category_web": "Web",
+                    "category_design": "Designs",
                     "category_utilities": "Utilities"
                 },
                 "es": {
@@ -59,7 +60,7 @@
                 }
             },
             "settings": {
-                "categorize_by": ["category_apps", "category_web", "category_utilities"],
+                "categorize_by": ["category_apps", "category_web", "category_design", "category_utilities"],
                 "order_items_by": "id",
                 "order_items_sort": "asc"
             },

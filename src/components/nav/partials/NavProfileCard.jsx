@@ -28,6 +28,8 @@ function NavProfileCard({ profile, expanded }) {
         roles = [roles[0]]
 
     const profilePictureUrl = language.parseJsonText(profile.profilePictureUrl)
+    const [showFullImage, setShowFullImage] = useState(false)
+
 
     const statusCircleVisible = Boolean(profile.statusCircleVisible)
     const statusCircleVariant = statusCircleVisible ?
@@ -56,10 +58,22 @@ function NavProfileCard({ profile, expanded }) {
 
     return (
         <Card className={`nav-profile-card ${expandedClass}`}>
-            <ImageView src={profilePictureUrl}
-                       className={`nav-profile-card-avatar`}
-                       hideSpinner={true}
-                       alt={name}/>
+           <div
+    onClick={() => setShowFullImage(true)}
+    style={{ cursor: "pointer",
+               transition: "transform 0.2s"
+     }}
+     onMouseEnter={(e) => e.currentTarget.style.transform = "scale(1.05)"}
+    onMouseLeave={(e) => e.currentTarget.style.transform = "scale(1)"}
+>
+    <ImageView
+        src={profilePictureUrl}
+        className={`nav-profile-card-avatar`}
+        hideSpinner={true}
+        alt={name}
+    />
+</div>
+
 
             {statusCircleVisible && (
                 <StatusCircle className={`nav-profile-card-status-circle`}
@@ -89,6 +103,37 @@ function NavProfileCard({ profile, expanded }) {
                          dangerouslySetInnerHTML={{__html: roles[0]}}/>
                 )}
             </div>
+
+            {showFullImage && (
+    <div
+        onClick={() => setShowFullImage(false)}
+        style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            backgroundColor: "rgba(0,0,0,0.85)",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            zIndex: 9999,
+            cursor: "pointer"
+        }}
+    >
+        <img
+            src={utils.file.resolvePath(profilePictureUrl)}
+            alt="Full Profile"
+            style={{
+                maxWidth: "90%",
+                maxHeight: "90%",
+                borderRadius: "12px",
+                boxShadow: "0 20px 60px rgba(0,0,0,0.5)"
+            }}
+        />
+    </div>
+)}
+
         </Card>
     )
 }
