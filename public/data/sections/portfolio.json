@@ -438,6 +438,32 @@
                         }
                         
                     }
+                },
+                {
+                    "id": 11,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/vivid-logo.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
+                    "preview": {
+                        "links": [
+                             {"href": "https://vivid-agency.vercel.app/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
+                            {"href": "https://github.com/chrislouis2002/Vivid-agency", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Vivid Agency",
+                            "text": "Delivered a client Streaming Agency Website from design to deployment with a focus on usability and performance",
+                            "tags": ["Next.js", "Tailwind", "Customizable","Optimizable"]
+                        }
+                        
+                    }
                 }
             ]
         }
