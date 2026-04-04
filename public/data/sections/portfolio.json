@@ -308,45 +308,7 @@
                         }
                     }
                 },
-                {
-                    "id": 7,
-                    "categoryId": "category_web",
-                    "img": "",
-                    "faIcon": "fa-solid fa-guitar",
-                    "faIconColors": {"bg": "#7671AA", "fill": "#EEEEEE"},
-                    "preview": {
-                        "links": [
-                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
-                        ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "RockVerse",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-                            "tags": ["Django", "Music", "Rock"]
-                        },
-                        "es": {
-                            "title": "RockVerse",
-                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
-                            "tags": ["Django", "Música", "Rock"]
-                        },
-                        "fr": {
-                            "title": "RockVerse",
-                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
-                            "tags": ["Django", "Musique", "Rock"]
-                        },
-                        "ko": {
-                            "title": "RockVerse",
-                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
-                            "tags": ["Django", "음악", "록"]
-                        }
-                    }
-                },
+                
                 {
                     "id": 8,
                     "categoryId": "category_utilities",
