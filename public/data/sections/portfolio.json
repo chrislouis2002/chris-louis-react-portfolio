@@ -65,130 +65,9 @@
                 "order_items_sort": "asc"
             },
             "items": [
-                {
-                    "id": 1,
-                    "categoryId": "category_utilities",
-                    "img": "images/pictures/portfolio-project-logo-3.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "preview": {
-                        "links": [
-                            {"href": "https://github.com", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
-                            {"href": "https://npm.com", "tooltipString": "see_on_npm", "faIcon": "fa-brands fa-npm"}
-                        ],
-                        "screenshots": [
-                            "images/pictures/screenshot-demo-landscape-1.png",
-                            "images/pictures/screenshot-demo-landscape-2.png",
-                            "images/pictures/screenshot-demo-landscape-3.png",
-                            "images/pictures/screenshot-demo-landscape-4.png",
-                            "images/pictures/screenshot-demo-landscape-5.png"
-                        ],
-                        "screenshotsAspectRatio": "16:9",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=PnV8p1xm7-o"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "BrainPulse",
-                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "es": {
-                            "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "fr": {
-                            "text": "Un backend <b>API RESTful</b> construit avec <b>Node.js</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "ko": {
-                            "text": "<b>Node.js</b>로 구축된 <b>RESTful API</b> 백엔드로, 고성능 데이터 처리 및 실시간 이벤트 처리용으로 설계되었습니다.",
-                            "tags": ["API", "REST", "Backend"]
-                        }
-                    }
-                },
-                {
-                    "id": 2,
-                    "categoryId": "category_apps",
-                    "img": "images/pictures/portfolio-project-logo-7.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "preview": {
-                        "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
-                        ],
-                        "screenshots": [
-                            "images/pictures/screenshot-demo-portrait-1.png",
-                            "images/pictures/screenshot-demo-portrait-2.png",
-                            "images/pictures/screenshot-demo-portrait-3.png",
-                            "images/pictures/screenshot-demo-portrait-4.png",
-                            "images/pictures/screenshot-demo-portrait-5.png",
-                            "images/pictures/screenshot-demo-portrait-6.png"
-                        ],
-                        "screenshotsAspectRatio": "9:16",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "MailM8",
-                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "es": {
-                            "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
-                            "tags": ["Flutter", "Correo", "Comunicación"]
-                        },
-                        "fr": {
-                            "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "ko": {
-                            "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
-                            "tags": ["Flutter", "이메일", "소통"]
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "categoryId": "category_apps",
-                    "img": "images/pictures/portfolio-project-logo-6.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "preview": {
-                        "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
-                        ],
-                        "screenshots": [
-                            "images/pictures/screenshot-demo-landscape-1.png",
-                            "images/pictures/screenshot-demo-landscape-2.png",
-                            "images/pictures/screenshot-demo-landscape-3.png",
-                            "images/pictures/screenshot-demo-landscape-4.png",
-                            "images/pictures/screenshot-demo-landscape-5.png"
-                        ],
-                        "screenshotsAspectRatio": "16:9",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Light Blue",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
-                        },
-                        "es": {
-                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
-                            "tags": ["React", "Organización", "Notas"]
-                        },
-                        "fr": {
-                            "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
-                            "tags": ["React", "Organisation", "Notes"]
-                        },
-                        "ko": {
-                            "text": "<b>React Native</b>로 개발된 기능이 풍부한 생산성 앱으로, 사용자가 여러 기기에서 작업, 메모, 프로젝트를 <b>클라우드 동기화</b>와 직관적인 UI로 관리할 수 있습니다.",
-                            "tags": ["React", "조직", "메모"]
-                        }
-                    }
-                },
+                
+                
+                
                 {
                     "id": 4,
                     "categoryId": "category_web",
@@ -422,6 +301,32 @@
                         "en": {
                             "title": "Vivid Agency",
                             "text": "Delivered a client Streaming Agency Website from design to deployment with a focus on usability and performance",
+                            "tags": ["Next.js", "Tailwind", "Customizable","Optimizable"]
+                        }
+                        
+                    }
+                },
+                {
+                    "id": 12,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/tiannas-treats-logo.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
+                    "preview": {
+                        "links": [
+                             {"href": "https://tiannas-treats.vercel.app/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
+                            {"href": "https://github.com/chrislouis2002/TIANNAS-TREATS", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Tianna's Treats Cafe",
+                            "text": "Fully functional client cafe website with a focus on usability and performance",
                             "tags": ["Next.js", "Tailwind", "Customizable","Optimizable"]
                         }
                         
