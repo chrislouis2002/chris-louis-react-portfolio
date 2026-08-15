@@ -331,6 +331,33 @@
                         }
                         
                     }
+                },
+
+                {
+                    "id": 13,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/crypto.webp",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
+                    "preview": {
+                        "links": [
+                             {"href": "https://crypto-tracker-nine-rho.vercel.app/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
+                            {"href": "https://github.com/chrislouis2002/investment-trading-platform", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CryptoTracker",
+                            "text": "Crypto Tracker is a modern cryptocurrency investment and portfolio management platform built with React, TypeScript, Vite, Tailwind CSS, Firebase, and Vercel. It provides real-time cryptocurrency market data, price history, watchlists, portfolio tracking, market news, interactive charts, a crypto calendar, and user authentication.",
+                            "tags": ["Next.js", "Tailwind", "Customizable","Optimizable"]
+                        }
+                        
+                    }
                 }
             ]
         }
